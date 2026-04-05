@@ -1,0 +1,9 @@
+google-adk
+mcp
+playwright
+google-genai
+litellm
+opik
+python-dotenv
+fastapi
+uvicorn
