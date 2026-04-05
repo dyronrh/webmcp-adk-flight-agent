@@ -61,6 +61,7 @@ Para ejecutar el demo del agente, simplemente corre el script `cli_demo.py`:
 python cli_demo.py
 ```
 
+
 ### Comportamiento del Demo
 El script `cli_demo.py` por defecto enviará un prompt al agente para:
 1. Abrir el demo oficial.
@@ -70,6 +71,8 @@ El script `cli_demo.py` por defecto enviará un prompt al agente para:
 
 **Nota Importante:** El demo oficial del sitio web actualmente solo devuelve resultados visibles para la ruta **LON -> NYC** con **tripType=round-trip**. Si pides otras rutas, el agente te lo notificará.
 
+## Si quieres testear con adk web ejecuta el siguiente comando en la raiz
+adk web .
 ## Integración con Opik (Opcional)
 
 Este proyecto tiene soporte preliminar para [Opik](https://www.comet.com/opik) para el rastreo y observabilidad de los agentes. Puedes habilitar la configuración en `.env` y descomentar las líneas correspondientes en `flight_agent/agent.py`.
